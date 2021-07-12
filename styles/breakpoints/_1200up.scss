@@ -1,0 +1,155 @@
+/******************************************************************
+
+Stylesheet: 1200px以上のモニタで適用
+
+******************************************************************/
+.c-txt-sm {
+  line-height: 3.5;
+}
+
+.c-container {
+  padding: 0 12vw;
+}
+
+//.p-header 
+.p-header {
+  & .logo__img {
+    margin: 60px 20px 0 80px;
+  }
+
+  & .pc-nav {
+    margin-right: 3vw;
+
+    & .pc-nav-item {
+      padding-top: 5vw;
+    }
+  }
+}
+
+//.p-top-view
+.p-topview {
+  padding: 4vw 5vw;
+
+  & .swiper-container {
+    height: 87vh;
+  }
+}
+
+//.p-message
+.p-message {
+  padding-bottom: 50vw;
+
+  &__img01 {
+    height: 500px;
+  }
+}
+
+//.p-promise
+.p-promise {
+  padding-bottom: 10vw;
+}
+
+//.p-treatments
+.p-treatments {
+  padding: 3vw 0;
+}
+
+//.p-doctor
+.p-doctor {
+  padding: 5vw 0;
+
+  &__name {
+    & .ja {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__wrap {
+    & h5 {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__img-wrap {
+    width: 30vw;
+    height: 35vh;
+  }
+
+  &__contents {
+    padding-top: 100px;
+  }
+}
+
+//.p-news
+.p-news {
+  padding: 5vw 0;
+
+  &__item {
+    & a {
+      padding: 3vw 6vw;
+    }
+  }
+}
+
+//.p-access
+.p-access {
+  padding: 5vw 0;
+
+  & .c-container {
+    padding: 0 8vw;
+  }
+
+  &__time {
+    margin-top: 7vw;
+  }
+
+  &__g-map {
+    font-size: 1rem;
+    padding-left: 30px;
+
+    &::before {
+      top: 4px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
+
+//.p-footer
+.p-footer {
+  padding: 5vw 0;
+}
+
+// * * * * * * * * * faq-page * * * * * * 
+.faq-contents {
+  & .c-container {
+    padding: 0 10vw;
+  }
+
+
+  & .faq {
+    margin: 20vw 0 10vw 0;
+
+    & .c-txtarea01 {
+      margin-bottom: 10vw;
+
+      & .c-txt-sm {
+        font-size: 20px;
+      }
+    }
+
+    & dt {
+      padding: 2.6vw 0 3.5vw 0;
+
+      &::before {
+        font-size: 32px;
+      }
+    }
+
+    & dd {
+      &::before {
+        font-size: 34px;
+      }
+    }
+  }
+}

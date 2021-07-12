@@ -1,0 +1,257 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+.c-txt-sm {
+  font-size: 1rem;
+}
+
+.c-txt-md {
+  font-size: 1.4rem;
+}
+
+.sp-navbtn {
+  display: none;
+}
+
+.mobile-container {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.pc-nav.inview {
+  & .pc-nav-link {
+    color: #ffff;
+  }
+}
+
+//.p-header
+.p-header {
+  & .logo__img {
+    margin: 35px 20px 0 60px;
+
+    & .logo {
+      width: 140px;
+    }
+  }
+
+  & .pc-container {
+    & .pc-nav-item {
+      padding-top: 4vw;
+    }
+  }
+}
+
+//.p-topview
+.p-topview {
+  & .swiper-container {
+    & .view-sp {
+      display: none;
+    }
+  }
+}
+
+//.p-message 
+.p-message {
+  padding-bottom: 70vw;
+
+  &__img01 {
+    height: 600px;
+  }
+
+  &__sub-img01 {
+    bottom: 21%;
+    left: 15vw;
+    height: 300px;
+    width: 300px;
+  }
+
+  &__sub-img02 {
+    right: 15vw;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+//.p-treatment
+.p-treatments {
+  &__menu {
+    margin-top: 6vw;
+  }
+
+  &__img-wrap {
+    width: 80%;
+  }
+}
+
+//.p-doctor
+.p-doctor {
+  &__name {
+    & .ja {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__wrap {
+    & h5 {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__img-wrap {
+    right: 10vw;
+    width: 35vw;
+  }
+}
+
+//.p-access
+.p-access {
+  & .c-container {
+    padding: 0 5vw;
+  }
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__time {
+    margin-top: 20vw;
+
+    & table {
+      & .close {
+        &::before {
+          width: 9.5vw;
+          transform: rotate(-46deg);
+        }
+      }
+    }
+  }
+}
+
+//.p-news
+.p-news {
+  &__item {
+    & a {
+      padding: 4vw;
+    }
+
+    &::after {
+      right: 0;
+    }
+  }
+}
+
+//.p-footer 
+.p-footer {
+  padding: 10vw 0;
+
+  &__list {
+    padding: 2vw 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+//* * * * * * * promise-page * * * * * * *   
+.promise {
+
+  &__txt-tit {
+    font-size: 1.2rem;
+  }
+
+  & .contents__scroll {
+    font-size: 10rem;
+    letter-spacing: 50px;
+  }
+}
+
+//* * * * * * * doctor-page * * * * * * *   
+.doctor {
+  padding: 250px 0 100px 0;
+
+  &__img {
+    height: 340px;
+  }
+
+  &__item {
+    font-size: .9rem;
+  }
+}
+
+//* * * * * * * treatment-page * * * * * * *   
+.gl-treatments {
+  padding-top: 250px;
+}
+
+//* * * * * * * news-page * * * * * * *   
+.c-news {
+  &__link {
+    padding: 4vw;
+
+    & span,
+    & p {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+// * * * * * * * * * news-sl-page * * * * * * 
+.c-news-sl {
+  padding: 10vw;
+
+  &__contents {
+    padding: 10vw 0;
+
+    & p {
+      font-size: 1rem;
+    }
+  }
+
+  &__link {
+    text-align: center;
+  }
+
+  & .more-link {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+  }
+
+  &__date {
+    font-size: 1.4rem;
+  }
+}
+
+// * * * * * * * * * recruit-page * * * * * * 
+.contents-recruit {
+  & .recruit {
+    &-message {
+      &__wrap {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__block {
+        width: 31%;
+      }
+    }
+
+    &-subtitle {
+      margin-bottom: 5vw;
+    }
+
+  }
+
+  .c-table01 {
+    td {
+      line-height: 2;
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,388 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+.c-txt-md {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 2;
+  color: $cSubBlack;
+}
+
+.c-txt-sm {
+  font-size: .8rem;
+  letter-spacing: 2px;
+  line-height: 3;
+  color: $cSubBlack;
+}
+
+.c-txt-xs {
+  font-size: .7rem;
+  letter-spacing: 2px;
+  line-height: 2;
+  color: $cSubBlack;
+}
+
+.c-container {
+  padding: 0 10vw;
+}
+
+.c-head01 {
+  font-size: 3.5rem;
+}
+
+.c-sub-head01 {
+  font-size: 1.2rem;
+}
+
+//.p-header
+.p-header {
+  & .logo__img {
+    margin: 20px 20px 0 30px;
+
+    & .logo {
+      width: 120px;
+    }
+  }
+
+  & .mobile-button {
+    top: 30px;
+    right: 30px;
+  }
+}
+
+//.p-topview 
+.p-topview {
+  & .swiper-container {
+    height: 100vh;
+  }
+}
+
+//.p-message
+.p-message {
+  padding-bottom: 80vw;
+
+  &__img01 {
+    width: 80%;
+  }
+
+  &__sub-img01 {
+    left: 10vw;
+    width: 230px;
+    height: 250px;
+    bottom: 20%;
+  }
+
+  &__sub-img02 {
+    right: 10vw;
+    width: 230px;
+    height: 200px;
+  }
+
+  &__txtarea {
+    margin-top: 5vw;
+
+  }
+
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+//.p-promise
+.p-promise {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    border-bottom: none;
+    padding: 0 0 0 20px;
+    border-left: 1px solid rgb(184, 184, 184);
+
+    &:first-of-type {
+      border-left: none;
+    }
+  }
+
+  &__txt-tit {
+    line-height: 2;
+  }
+}
+
+//.p-treatment
+.p-treatments {
+  padding: 10vw 0;
+
+  .view-pc {
+    display: none;
+  }
+
+  &__img-wrap {
+    padding: 0 10vw;
+  }
+
+  &__img {
+    height: 360px;
+  }
+
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__txtarea {
+    width: 40%;
+  }
+
+  &__menu {
+    margin-top: 13vw;
+    width: 45%;
+  }
+}
+
+//.p-doctor
+.p-doctor {
+  padding: 10vw 0;
+
+  &__img-wrap {
+    top: 23%;
+  }
+}
+
+//.p-news
+.p-news {
+  padding: 10vw 0;
+
+  &__title {
+    text-align: right;
+  }
+
+  &__item {
+    & a {
+      padding: 5vw;
+      font-size: 1.1rem;
+    }
+
+    &::after {
+      right: -8%;
+    }
+  }
+
+  & .c-btn {
+    margin-top: 60px;
+  }
+}
+
+//.p-access
+.p-access {
+  padding: 10vw 0;
+
+  &__time {
+    & table {
+      & .close {
+        &::before {
+          width: 12vw;
+          transform: rotate(-40deg);
+        }
+      }
+    }
+  }
+}
+
+//p-footer
+.p-footer {
+  padding: 8vw 0;
+}
+
+// * * * * * * * * * promise-page * * * * * * * 
+.promise {
+  &__reserve {
+    display: none;
+  }
+
+  & .contents {
+    padding-bottom: 8vw;
+
+    & .c-txt-sm {
+      margin-top: 10vw;
+    }
+  }
+}
+
+// * * * * * * * * * doctor-page * * * * * * * 
+.doctor {
+  padding: 200px 0 50px 0;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  &__contents {
+    width: 45%;
+  }
+
+  &__img {
+    width: 50%;
+  }
+}
+
+// * * * * * * * * * treatments-page * * * * * * 
+.gl-treatments {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    width: 40%;
+  }
+
+  &__img {
+    margin: 0;
+    width: 50%;
+  }
+
+  & .content-image {
+    margin: 10vw auto 0 auto;
+    width: 60%;
+  }
+}
+
+.implant {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    width: 40%;
+  }
+
+  &__img {
+    margin: 0;
+    width: 50%;
+  }
+}
+
+.orthodontic {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    width: 40%;
+  }
+
+  &__img {
+    margin: 0;
+    width: 45%;
+  }
+}
+
+.whitening {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    width: 40%;
+  }
+
+  &__img {
+    margin: 0;
+    width: 45%;
+  }
+}
+
+// * * * * * * * * * news-page * * * * * * 
+.c-news {
+  &__title {
+    & .c-head01 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+// * * * * * * * * * news-sl-page * * * * * * 
+.c-news-sl {
+  padding: 10vw;
+
+  &__contents {
+    padding: 10vw 0;
+  }
+}
+
+// * * * * * * * * * recruit-page * * * * * * 
+.contents-recruit {
+  .c-table01 {
+    & tr {
+      & th {
+        vertical-align: top;
+        min-width: 200px;
+      }
+    }
+
+    & .u-view-sp {
+      display: none;
+    }
+  }
+}
+
+// * * * * * * * * * faq-page * * * * * * 
+.faq-contents {
+  & .c-container {
+    padding: 0 7vw;
+  }
+
+  & .faq {
+    margin: 30vw 0 10vw 0;
+
+    &__title {
+      text-align: center;
+    }
+
+    & .c-txtarea01 {
+      & .c-txt-sm {
+        font-size: 16px;
+      }
+    }
+
+    & dt {
+      &::before {
+        font-size: 28px;
+      }
+
+      & span {
+        &::after {
+          width: 2.5vw;
+        }
+      }
+    }
+
+    & dd {
+      &::before {
+        font-size: 30px;
+      }
+    }
+  }
+
+  & .nw-topview {
+    margin: 0 -3vw;
+
+    &__inner {
+      margin: 0 -4vw;
+    }
+  }
+}
