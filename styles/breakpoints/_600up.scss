@@ -50,6 +50,10 @@ Stylesheet: 600px以上のタブレットやモニタで適用
     top: 30px;
     right: 30px;
   }
+
+  & .sp-navbtn {
+    display: none;
+  }
 }
 
 //.p-topview 
