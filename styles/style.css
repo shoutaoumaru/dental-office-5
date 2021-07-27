@@ -598,7 +598,7 @@ a:visited {
 }
 
 .p-access table td {
-  font-size: .7rem;
+  font-size: .6rem;
   color: #929090;
   padding: 2.7vw;
 }
@@ -3476,6 +3476,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   }
   .p-message__img01 {
     width: 80%;
+    height: 34vh;
   }
   .p-message__sub-img01 {
     left: 10vw;
@@ -3550,6 +3551,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   }
   .p-doctor__img-wrap {
     top: 23%;
+    width: 50vw;
   }
   .p-news {
     padding: 10vw 0;
@@ -3802,6 +3804,13 @@ Stylesheet: 960px以上のモニタで適用
   }
   .p-access__time {
     margin-top: 20vw;
+  }
+  .p-access__time table td,
+  .p-access__time table th {
+    font-size: 1rem;
+  }
+  .p-access__time table td {
+    padding: 2vw;
   }
   .p-access__time table .close::before {
     width: 9.5vw;

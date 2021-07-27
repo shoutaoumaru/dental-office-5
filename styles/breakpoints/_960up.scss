@@ -123,6 +123,16 @@ Stylesheet: 960px以上のモニタで適用
     margin-top: 20vw;
 
     & table {
+
+      & td,
+      & th {
+        font-size: 1rem;
+      }
+
+      & td {
+        padding: 2vw;
+      }
+
       & .close {
         &::before {
           width: 9.5vw;
