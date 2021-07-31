@@ -15,7 +15,7 @@
 <body>
   <div id="main-wrapper" class="recruit-wrapper animsition">
     <header id="header" class="p-header">
-      <div class="mobile-container clip-js1 left">
+      <div class="mobile-container ">
         <div class=" logo__img">
           <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>

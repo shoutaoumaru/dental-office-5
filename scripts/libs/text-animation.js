@@ -4,7 +4,7 @@ class TextAnimation {
     this.DOM.el = el instanceof HTMLElement ? el : document.querySelector(el);
   }
   animate() {
-    this.DOM.el.classList.toggle('reveal');
+    this.DOM.el.classList.toggle("reveal");
   }
 }
 class BgAnimation {
@@ -13,16 +13,16 @@ class BgAnimation {
     this.DOM.el = el instanceof HTMLElement ? el : document.querySelector(el);
   }
   animate() {
-    this.DOM.el.classList.toggle('reveal');
+    this.DOM.el.classList.toggle("reveal");
   }
 }
 // ページロード時のテキストアニメーション
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   setTimeout(() => {
-    const loadAnimation = document.querySelectorAll('.clip-js１');
+    const loadAnimation = document.querySelectorAll(".clip-js1");
     loadAnimation.forEach(function (element) {
       element.classList.add("reveal");
-    }, 1500)
+    }, 1500);
   });
   // const loadAnimation3 = document.querySelectorAll('.clip-js3');
   // loadAnimation3.forEach(function (element) {
