@@ -1,3 +1,7 @@
+<?php
+ /* Template Name: recruit
+ */
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -5,9 +9,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>歯科テンプレート４ | 採用情報</title>
-  <link rel="stylesheet" href="../styles/vendor/bootstrap-reboot.css">
-  <link rel="stylesheet" href="../styles/vendor/animsition.min.css" />
-  <link rel="stylesheet" href="../styles/style.css" />
+  <?php get_header(); ?>
 </head>
 
 <body>
@@ -15,7 +17,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container clip-js1 left">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -30,29 +32,29 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>HOME</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span>HOME</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/promise/promise.html"><span>PROMISE</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/promise')); ?>"><span>PROMISE</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/treatment/treatment.html"><span>MENU</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>"><span>MENU</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>DOCTOR</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>"><span>DOCTOR</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>NEWS</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>NEWS</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>FAQ</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>FAQ</span></a>
             </li>
           </ul>
         </nav>
@@ -240,22 +242,22 @@
         <div class="p-footer__menu">
           <ul class="p-footer__list">
             <li class="p-footer__item">
-              <a class="animsition-link" href="/">HOME</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">HOME</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/promise/promise.html">PROMISE</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/promise')); ?>">PROMISE</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/news/news.html">NEWS</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">NEWS</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">FAQ</a>
             </li>
           </ul>
         </div>
@@ -269,25 +271,22 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">HOME</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">HOME</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/promise/promise.html">PROMISE</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/promise')); ?>">PROMISE</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/news')); ?>">NEWS</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/news/news.html">NEWS</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/faq')); ?>">FAQ</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -309,11 +308,7 @@
     <!------ /.mobile-menu ----->
   </div>
   <!-- /.recruit-wrapper -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="../scripts/vendor/animsition.min.js"></script>
-  <script src="../scripts/libs/page.js"></script>
-  <script src="../scripts/libs/scroll-btn.js"></script>
-  <script src="../scripts/libs/mobile-menu.js"></script>
+  <?php get_template_part('includes/c-footer'); ?>      
 </body>
 
 </html>

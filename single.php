@@ -6,12 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>歯科テンプレート５/NEWS/single</title>
-  <link rel="stylesheet" href="../styles/vendor/bootstrap-reboot.css">
-  <link rel="stylesheet" href="../styles/vendor/animsition.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet" />
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../styles/style.css">
+  <?php get_header(); ?>
 </head>
 
 <body>
@@ -19,7 +14,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -34,29 +29,29 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>HOME</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span>HOME</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/promise/promise.html"><span>PROMISE</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/promise')); ?>"><span>PROMISE</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/treatment/treatment.html"><span>MENU</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>"><span>MENU</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>DOCTOR</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>"><span>DOCTOR</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>FAQ</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>FAQ</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="recruit/recruit.html"><span>RECRUIT</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>RECRUIT</span></a>
             </li>
           </ul>
         </nav>
@@ -77,24 +72,19 @@
         <ul class="c-news-sl__list">
           <li class="c-news-sl__block">
             <div class="c-news-sl__tit">
-              <p class="c-txt-md">新型コロナウィルス感染予防について。</p>
-              <span class="c-news-sl__date">2021.4.5</span>
+              <p class="c-txt-md"><?php the_title(); ?></p>
+              <span class="c-news-sl__date"><?php the_date(); ?></span>
             </div>
+            <?php the_post_thumbnail('thumbnail'); ?>
             <div class="c-news-sl__contents">
-              <p>2021年5月7日（金）より期間限定で、「芳醇フランボワーズチーズタルト」を国内全店舗にて販売いたします。
-
-                チーズムースにフランボワーズのジャムとピューレを配合し、クリームチーズの“コク”とフランボワーズの“甘酸っぱさ”が絶妙にマッチした、オリジナルの「フランボワーズチーズムース」に仕上げました。
-
-                クッキー生地では、フランボワーズのイメージから連想される“レッド”を表現。
-                ほんのりと感じられる「ココア」の風味が「フランボワーズチーズムース」との相性もぴったりです。
-
+              <p><?php the_content(); ?>
               </p>
             </div>
           </li>
 
         </ul>
         <div class="c-news-sl__link">
-          <a class="more-link animsition-link" href="/news/news.html"><span class="readmore">一覧へ戻る</span></a>
+          <a class="more-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span class="readmore">一覧へ戻る</span></a>
         </div>
       </div>
     </section>
@@ -135,22 +125,22 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">HOME</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">HOME</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/promise/promise.html">PROMISE</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/promise')); ?>">PROMISE</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">FAQ</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/recruit/recruit.html">RECRUIT</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>">RECRUIT</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -172,11 +162,7 @@
     <!------ /.mobile-menu ----->
   </div>
   <!-- .superwrapper -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/vendor/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="/scripts/libs/scroll-btn.js"></script>
-  <script src="/scripts/libs/mobile-menu.js"></script>
+  <?php get_template_part('includes/c-footer'); ?>      
 </body>
 
 </html>

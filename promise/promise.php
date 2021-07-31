@@ -1,3 +1,7 @@
+<?php
+ /* Template Name: promise
+ */
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -5,13 +9,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>歯科テンプレート５/PROMISE</title>
-  <link rel="stylesheet" href="../styles/vendor/bootstrap-reboot.css">
-  <link rel="stylesheet" href="../styles/vendor/animsition.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;600&family=Noto+Serif+JP:wght@200;400;600&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="../styles/style.css">
+  <?php get_header(); ?>
 </head>
 
 <body>
@@ -19,7 +17,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container clip-js1 left">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -34,29 +32,29 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>HOME</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span>HOME</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/treatment/treatment.html"><span>MENU</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>"><span>MENU</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>DOCTOR</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>"><span>DOCTOR</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>NEWS</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>NEWS</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>FAQ</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>FAQ</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="recruit/recruit.html"><span>RECRUIT</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>RECRUIT</span></a>
             </li>
           </ul>
         </nav>
@@ -75,7 +73,7 @@
     <div id="main-contents">
       <div class="promise">
         <div class="promise__img">
-          <img src="/images/home/medical__2@pc.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/home/medical__2@pc.jpg" alt="">
         </div>
         <div class="c-container">
           <h2 class="promise__title clip-js1 left">
@@ -97,7 +95,7 @@
                 近年は矯正歯科、審美歯科など特定分野に特化した医院がありますが、当医院では一般診療から矯正、審美などの特殊治療まですべての分野において責任をもって対応。患者さまの費用面や歯科医師間の方針の違いなど、重複診療のデメリットを省くとともに、患者さまのホームドクターとして長期的なアドバイスやメンテナンスをいたします。
               </p>
               <div class="c-btn">
-                <a class="c-link animsition-link item" href="/treatment/treatment.html">VIEW MORE</a>
+                <a class="c-link animsition-link item" href=" <?php echo esc_url( home_url('/treatment')); ?>">VIEW MORE</a>
               </div>
             </li>
             <li class="promise__item item">
@@ -106,7 +104,7 @@
                 歯科治療は日々進化し、新しい施術方法が研究されています。当医院では常に各分野の学会や勉強会へ赴き、最新の知識や技術を吸収、その安全性を確かめた上で日々の施術にフィードバックしています。また医院長の吉木は日本国内はもとよりアメリカやヨーロッパなどの学会・研修会に数多く参加し、またその高い技術力が評価されて講演や執筆活動も行なっています。
               </p>
               <div class="c-btn">
-                <a class="c-link animsition-link item" href="/treatment/treatment.html">VIEW MORE</a>
+                <a class="c-link animsition-link item" href=" <?php echo esc_url( home_url('/treatment')); ?>">VIEW MORE</a>
               </div>
             </li>
             <li class="promise__item item">
@@ -115,7 +113,7 @@
                 当医院では国内の有名な歯科技工士と連携し、高度で精巧な補綴物を提供しています。特に前歯の治療に際しては、医師とともに歯科技工士もその場に立ち合って、患者さまを含めた3者で話し合い、患者さまの歯の色や形など好みを聞きながらオーダーメイドの修復を行ないます。
               </p>
               <div class=" c-btn">
-                <a class="c-link animsition-link item" href="/doctor/doctor.html">VIEW MORE</a>
+                <a class="c-link animsition-link item" href=" <?php echo esc_url( home_url('/doctor')); ?>">VIEW MORE</a>
               </div>
             </li>
           </ul>
@@ -141,22 +139,22 @@
         <div class="p-footer__menu">
           <ul class="p-footer__list">
             <li class="p-footer__item">
-              <a class="animsition-link" href="/">HOME</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">HOME</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/news/news.html">NEWS</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">NEWS</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">FAQ</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/recruit/recruit.html">RECRUIT</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>">RECRUIT</a>
             </li>
           </ul>
         </div>
@@ -170,22 +168,22 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">HOME</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">HOME</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/news/news.html">NEWS</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/news')); ?>">NEWS</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/faq')); ?>">FAQ</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/recruit/recruit.html">RECRUIT</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/recruit')); ?>">RECRUIT</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -207,16 +205,7 @@
     <!------ /.mobile-menu ----->
   </div>
   <!-- /.superwrapper -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/vendor/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="../scripts/libs/mobile-menu.js"></script>
-  <script src="/scripts/vendor/simpleParallax.min.js"></script>
-  <script src="../scripts/libs/parallax.js"></script>
-  <script src="../scripts/libs/scroll.js"></script>
-  <script src="../scripts/libs/text-animation.js"></script>
-  <script src="../scripts/libs/scroll-btn.js"></script>
-  <script src="../scripts/c-main.js"></script>
+  <?php get_template_part('includes/c-footer'); ?>      
 </body>
 
 </html>

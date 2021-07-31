@@ -416,7 +416,7 @@
               <a class="animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/ <?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
             </li>
             <li class="p-footer__item">
               <a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">NEWS</a>
