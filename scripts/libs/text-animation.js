@@ -19,7 +19,7 @@ class BgAnimation {
 // ページロード時のテキストアニメーション
 document.addEventListener('DOMContentLoaded', function () {
   setTimeout(() => {
-    const loadAnimation = document.querySelectorAll('.clip-js１');
+    const loadAnimation = document.querySelectorAll('.clip-js1');
     loadAnimation.forEach(function (element) {
       element.classList.add("reveal");
     }, 1500)
