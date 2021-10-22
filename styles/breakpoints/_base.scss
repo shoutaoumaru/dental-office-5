@@ -272,8 +272,8 @@ a:visited {
 .p-topview {
   margin-bottom: 20vw;
 
-  & .swiper-container {
-    height: 93vh;
+  & .swiper-slide {
+    height: 85vh;
 
     @media (max-width:959px) {
       & .view-pc {

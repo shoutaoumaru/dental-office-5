@@ -268,12 +268,12 @@ a:visited {
   margin-bottom: 20vw;
 }
 
-.p-topview .swiper-container {
-  height: 93vh;
+.p-topview .swiper-slide {
+  height: 85vh;
 }
 
 @media (max-width: 959px) {
-  .p-topview .swiper-container .view-pc {
+  .p-topview .swiper-slide .view-pc {
     display: none;
   }
 }
