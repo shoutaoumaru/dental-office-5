@@ -1,204 +1,255 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>歯科テンプレート５/news</title>
+    <link rel="stylesheet" href="../styles/vendor/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="../styles/vendor/animsition.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>歯科テンプレート５/news</title>
-  <link rel="stylesheet" href="../styles/vendor/bootstrap-reboot.css">
-  <link rel="stylesheet" href="../styles/vendor/animsition.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet" />
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../styles/style.css">
-</head>
-
-<body>
-  <div class="superwrapper animsition">
-    <header id="header" class="p-header">
-      <div class="mobile-container">
-        <div class=" logo__img">
-          <a class="animsition-link" href="/">
-            <div class="logo"></div>
-          </a>
+  <body>
+    <div class="superwrapper animsition">
+      <header id="header" class="p-header">
+        <div class="mobile-container">
+          <div class="logo__img">
+            <a class="animsition-link" href="/">
+              <div class="logo"></div>
+            </a>
+          </div>
+          <div class="mobile-button">
+            <button class="mobile-menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
         </div>
-        <div class="mobile-button">
-          <button class="mobile-menu__btn">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
+        <!-- /.mobile-container -->
+        <div class="pc-container">
+          <div class="logo__img">
+            <a class="animsition-link" href="/">
+              <div class="logo-pc logo"></div>
+            </a>
+          </div>
+          <nav class="pc-nav">
+            <ul class="pc-nav-list">
+              <li class="pc-nav-item">
+                <a class="pc-nav-link animsition-link" href="/"
+                  ><span>HOME</span></a
+                >
+              </li>
+              <li class="pc-nav-item">
+                <a
+                  class="pc-nav-link animsition-link"
+                  href="/promise/promise.html"
+                  ><span>PROMISE</span></a
+                >
+              </li>
+              <li class="pc-nav-item">
+                <a
+                  class="pc-nav-link animsition-link"
+                  href="/treatment/treatment.html"
+                  ><span>MENU</span></a
+                >
+              </li>
+              <li class="pc-nav-item">
+                <a
+                  class="pc-nav-link animsition-link"
+                  href="/doctor/doctor.html"
+                  ><span>DOCTOR</span></a
+                >
+              </li>
+              <li class="pc-nav-item">
+                <a class="pc-nav-link animsition-link" href="/faq/faq.html"
+                  ><span>FAQ</span></a
+                >
+              </li>
+              <li class="pc-nav-item">
+                <a
+                  class="pc-nav-link animsition-link"
+                  href="/recruit/recruit.html"
+                  ><span>RECRUIT</span></a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-      </div>
-      <!-- /.mobile-container -->
-      <div class="pc-container">
-        <div class=" logo__img">
-          <a class="animsition-link" href="/">
-            <div class="logo-pc logo"></div>
-          </a>
-        </div>
-        <nav class="pc-nav">
-          <ul class="pc-nav-list">
-            <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>HOME</span></a>
+        <!-- /.pc-container -->
+        <nav class="sp-navbtn">
+          <ul class="sp-navbtn__container">
+            <li>
+              <a class="tel" href="tel:092-686-7954"
+                >電話予約<i class="icon-tel"></i
+              ></a>
             </li>
-            <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/promise/promise.html"><span>PROMISE</span></a>
-            </li>
-            <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/treatment/treatment.html"><span>MENU</span></a>
-            </li>
-            <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>DOCTOR</span></a>
-            </li>
-            <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>FAQ</span></a>
-            </li>
-            <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="recruit/recruit.html"><span>RECRUIT</span></a>
+            <li>
+              <a class="net" target="_blank" href="https://beauty.hotpepper.jp/"
+                >オンライン予約<i class="icon-net"></i
+              ></a>
             </li>
           </ul>
         </nav>
-      </div>
-      <!-- /.pc-container -->
-      <nav class="sp-navbtn">
-        <ul class="sp-navbtn__container">
-          <li><a class="tel" href="tel:092-686-7954">電話予約<i class="icon-tel"></i></a></li>
-          <li><a class="net" target="_blank" href="https://beauty.hotpepper.jp/">オンライン予約<i class="icon-net"></i></a>
-          </li>
-        </ul>
-      </nav>
-      <!-- /.nav-btn -->
-    </header>
-    <!-- /.p-header -->
-    <section class="c-news">
-      <div class="c-container">
-        <h2 class="c-news__title clip-text left">
-          <p class="c-head01">NEWS</p>
-          <p class="c-sub-head01">お知らせ</p>
-        </h2>
-        <ul class="c-news__list">
-          <li class="c-news__item">
-            <a href="/news/news-single.html" class="c-news__link animsition-link">
-              <span class="c-news__date">2021.4.5</span>
-              <p class="c-news__tit">新型コロナウィルス感染予防について。</p>
-            </a>
-          </li>
-          <li class="c-news__item">
-            <a href="/news/news-single.html" class="c-news__link animsition-link">
-              <span class="c-news__date">2021.1.5</span>
-              <p class="c-news__tit">東京都緊急事態宣言について。</p>
-            </a>
-          </li>
-          <li class="c-news__item">
-            <a href="/news/news-single.html" class="c-news__link animsition-link">
-              <span class="c-news__date">2020.11.5</span>
-              <p class="c-news__tit">時短営業について。</p>
-            </a>
-          </li>
-        </ul>
-        <ul class="page-numbers">
-          <li>
-            <span aria-current="page" class="page-numbers current">1</span>
-          </li>
-          <li>
-            <a class="page-numbers" href="#">2</a>
-          </li>
-          <li>
-            <a class="page-numbers" href="#">3</a>
-          </li>
-          <li>
-            <span class="page-numbers dots">…</span>
-          </li>
-          <li>
-            <a class="page-numbers" href="#">6</a>
-          </li>
-          <li>
-            <a class="next page-numbers" href="#">次のページへ</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- /.c-news -->
-    <footer id="footer" class="p-footer">
-      <div class="p-footer__inner clip-text skew">
-        <div class="p-footer__logo">
-        </div>
-        <div class="p-footer__menu">
-          <ul class="p-footer__list">
-            <li class="p-footer__item">
-              <a class="animsition-link" href="/">HOME</a>
+        <!-- /.nav-btn -->
+      </header>
+      <!-- /.p-header -->
+      <section class="c-news">
+        <div class="c-container">
+          <h2 class="c-news__title clip-text left">
+            <p class="c-head01">NEWS</p>
+            <p class="c-sub-head01">お知らせ</p>
+          </h2>
+          <ul class="c-news__list">
+            <li class="c-news__item">
+              <a
+                href="/news/news-single.html"
+                class="c-news__link animsition-link"
+              >
+                <span class="c-news__date">2021.4.5</span>
+                <p class="c-news__tit">新型コロナウィルス感染予防について。</p>
+              </a>
             </li>
-            <li class="p-footer__item">
-              <a class="animsition-link" href="/promise/promise.html">PROMISE</a>
+            <li class="c-news__item">
+              <a
+                href="/news/news-single.html"
+                class="c-news__link animsition-link"
+              >
+                <span class="c-news__date">2021.1.5</span>
+                <p class="c-news__tit">東京都緊急事態宣言について。</p>
+              </a>
             </li>
-            <li class="p-footer__item">
-              <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+            <li class="c-news__item">
+              <a
+                href="/news/news-single.html"
+                class="c-news__link animsition-link"
+              >
+                <span class="c-news__date">2020.11.5</span>
+                <p class="c-news__tit">時短営業について。</p>
+              </a>
             </li>
-            <li class="p-footer__item">
-              <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+          </ul>
+          <ul class="page-numbers">
+            <li>
+              <span aria-current="page" class="page-numbers current">1</span>
             </li>
-            <li class="p-footer__item">
-              <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+            <li>
+              <a class="page-numbers" href="#">2</a>
             </li>
-            <li class="p-footer__item">
-              <a class="animsition-link" href="/recruit/recruit.html">RECRUIT</a>
+            <li>
+              <a class="page-numbers" href="#">3</a>
+            </li>
+            <li>
+              <span class="page-numbers dots">…</span>
+            </li>
+            <li>
+              <a class="page-numbers" href="#">6</a>
+            </li>
+            <li>
+              <a class="next page-numbers" href="#">次のページへ</a>
             </li>
           </ul>
         </div>
-        <div class="p-footer__copy">
-          &copy;2021 RivRound.inc
+      </section>
+      <!-- /.c-news -->
+      <footer id="footer" class="p-footer">
+        <div class="p-footer__inner clip-text skew">
+          <div class="p-footer__logo"></div>
+          <div class="p-footer__menu">
+            <ul class="p-footer__list">
+              <li class="p-footer__item">
+                <a class="animsition-link" href="/">HOME</a>
+              </li>
+              <li class="p-footer__item">
+                <a class="animsition-link" href="/promise/promise.html"
+                  >PROMISE</a
+                >
+              </li>
+              <li class="p-footer__item">
+                <a class="animsition-link" href="/treatment/treatment.html"
+                  >MENU</a
+                >
+              </li>
+              <li class="p-footer__item">
+                <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+              </li>
+              <li class="p-footer__item">
+                <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+              </li>
+              <li class="p-footer__item">
+                <a class="animsition-link" href="/recruit/recruit.html"
+                  >RECRUIT</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="p-footer__copy">&copy;2021 RivRound.inc</div>
         </div>
+      </footer>
+      <!-------- /.p-footer -------->
+      <div class="mobile-menu">
+        <nav class="mobile-menu__nav">
+          <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+              <a class="animsition-link" href="/">HOME</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="animsition-link" href="/promise/promise.html"
+                >PROMISE</a
+              >
+            </li>
+            <li class="mobile-menu__item">
+              <a class="animsition-link" href="/treatment/treatment.html"
+                >MENU</a
+              >
+            </li>
+            <li class="mobile-menu__item">
+              <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="animsition-link" href="/recruit/recruit.html"
+                >RECRUIT</a
+              >
+            </li>
+          </ul>
+          <div class="reserve-btn-wrap">
+            <div class="reserve-btn-tel">
+              <h4>電話予約はこちら</h4>
+              <div class="reserve-btn">
+                <a href="tel:092-686-7954"><span>092-686-7954</span></a>
+              </div>
+            </div>
+            <div class="reserve-btn-net">
+              <h4>ネット予約はこちら</h4>
+              <div class="reserve-btn">
+                <a href="https://doctorsfile.jp/" target="_blank"
+                  ><span>ONLINE RESERVE</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
-    </footer>
-    <!-------- /.p-footer -------->
-    <div class="mobile-menu">
-      <nav class="mobile-menu__nav">
-        <ul class="mobile-menu__list">
-          <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">HOME</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="animsition-link" href="/promise/promise.html">PROMISE</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">FAQ</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="animsition-link" href="/recruit/recruit.html">RECRUIT</a>
-          </li>
-        </ul>
-        <div class="reserve-btn-wrap">
-          <div class="reserve-btn-tel">
-            <h4>電話予約はこちら</h4>
-            <div class="reserve-btn">
-              <a href="tel:092-686-7954"><span>092-686-7954</span></a>
-            </div>
-          </div>
-          <div class="reserve-btn-net">
-            <h4>ネット予約はこちら</h4>
-            <div class="reserve-btn">
-              <a href="https://doctorsfile.jp/" target="_blank"><span>ONLINE RESERVE</span></a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <!------ /.mobile-menu ----->
     </div>
-    <!------ /.mobile-menu ----->
-  </div>
-  <!-- /.superwrapper -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/vendor/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="/scripts/libs/scroll-btn.js"></script>
-  <script src="/scripts/libs/mobile-menu.js"></script>
-</body>
-
+    <!-- /.superwrapper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/scripts/vendor/animsition.min.js"></script>
+    <script src="/scripts/libs/page.js"></script>
+    <script src="/scripts/libs/scroll-btn.js"></script>
+    <script src="/scripts/libs/mobile-menu.js"></script>
+  </body>
 </html>

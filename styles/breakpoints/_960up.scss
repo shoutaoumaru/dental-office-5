@@ -25,7 +25,7 @@ Stylesheet: 960px以上のモニタで適用
 
 .pc-nav.inview {
   & .pc-nav-link {
-    color: #ffff;
+    color: #586166;
   }
 }
 
@@ -55,7 +55,7 @@ Stylesheet: 960px以上のモニタで適用
   }
 }
 
-//.p-message 
+//.p-message
 .p-message {
   padding-bottom: 70vw;
 
@@ -123,7 +123,6 @@ Stylesheet: 960px以上のモニタで適用
     margin-top: 20vw;
 
     & table {
-
       & td,
       & th {
         font-size: 1rem;
@@ -156,7 +155,7 @@ Stylesheet: 960px以上のモニタで適用
   }
 }
 
-//.p-footer 
+//.p-footer
 .p-footer {
   padding: 10vw 0;
 
@@ -167,9 +166,8 @@ Stylesheet: 960px以上のモニタで適用
   }
 }
 
-//* * * * * * * promise-page * * * * * * *   
+//* * * * * * * promise-page * * * * * * *
 .promise {
-
   &__txt-tit {
     font-size: 1.2rem;
   }
@@ -180,7 +178,7 @@ Stylesheet: 960px以上のモニタで適用
   }
 }
 
-//* * * * * * * doctor-page * * * * * * *   
+//* * * * * * * doctor-page * * * * * * *
 .doctor {
   padding: 250px 0 100px 0;
 
@@ -189,16 +187,16 @@ Stylesheet: 960px以上のモニタで適用
   }
 
   &__item {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
 
-//* * * * * * * treatment-page * * * * * * *   
+//* * * * * * * treatment-page * * * * * * *
 .gl-treatments {
   padding-top: 250px;
 }
 
-//* * * * * * * news-page * * * * * * *   
+//* * * * * * * news-page * * * * * * *
 .c-news {
   &__link {
     padding: 4vw;
@@ -210,7 +208,7 @@ Stylesheet: 960px以上のモニタで適用
   }
 }
 
-// * * * * * * * * * news-sl-page * * * * * * 
+// * * * * * * * * * news-sl-page * * * * * *
 .c-news-sl {
   padding: 10vw;
 
@@ -238,7 +236,7 @@ Stylesheet: 960px以上のモニタで適用
   }
 }
 
-// * * * * * * * * * recruit-page * * * * * * 
+// * * * * * * * * * recruit-page * * * * * *
 .contents-recruit {
   & .recruit {
     &-message {
@@ -255,7 +253,6 @@ Stylesheet: 960px以上のモニタで適用
     &-subtitle {
       margin-bottom: 5vw;
     }
-
   }
 
   .c-table01 {

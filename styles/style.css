@@ -3109,7 +3109,7 @@ Stylesheet: 960px以上のモニタで適用
     display: none;
   }
   .pc-nav.inview .pc-nav-link {
-    color: #ffff;
+    color: #586166;
   }
   .p-header .logo__img {
     margin: 35px 20px 0 60px;
@@ -3214,7 +3214,7 @@ Stylesheet: 960px以上のモニタで適用
     height: 340px;
   }
   .doctor__item {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .gl-treatments {
     padding-top: 250px;
